@@ -47,14 +47,12 @@ body{
 		top: 10%;
 		border-radius: 10px;
 		box-sizing: border-box;
-		padding: 5px;
+		padding: 5px 5px 5px 10%;
 	}
 
 		.T1{
 			width: 85%;
 			position: relative;
-			/*text-align: center;*/
-			left: 10%;
 			background-color: green;
 		}
 
@@ -62,23 +60,35 @@ body{
 			width: 85%;
 			height: 50%;
 			position: relative;
-			left: 10%;
 			background-color: violet;
 		}
 
+			.simbolo{
+				background-color: red;
+				width: 1em;
+				height: 80%;
+				position: relative;
+				float: left;
+				font-size: xx-large;
+				text-align: center;
+				top: 9%;
+				line-height: 1.2;
+			}
+
 			#pantalla{
 				position: relative;
-				width: 100%;
+				width: 80%;
 				height: 80%;
 				top: 10%;
 				border: none;
+				float: left;
 			}
 
 		.C2{
 			width: 85%;
 			height: 30%;
 			position: relative;
-			left: 10%;
+			float: left;
 			background-color: blue;
 		}
 
@@ -124,4 +134,15 @@ body{
 		visibility: hidden;
 		font-family: 'Lato', sans-serif;
 		padding-top: 5px;
+		padding-left: 10%;
+		box-sizing: border-box;
+	}
+
+	#intro{
+		position: relative;
+		width: 80%;
+		height: 30%;
+		border: none;
+		float: left;
+		margin: 5px 0% 5px 0%;
 	}
