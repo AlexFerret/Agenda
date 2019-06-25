@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+	background-color: red;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 8% 22%  auto;
+	height: 100%;
+	justify-content: center;
+	align-content: stretch;
+}
+
+.Cuno{
+	align-self: center;
+	justify-self: center;
+	box-sizing: border-box;
+}
+
+	.header{
+		color: white;
+		font-weight: bold;
+		font-size: larger;
+	}
+
+.Cdos{
+	background-color: grey;
+	box-sizing: border-box;
+}
+
+	.C1{
+		width: 80%;
+		height: 80%;
+		background-color: yellow;
+		position: relative;
+		float: left;
+		left: 10%;
+		top: 10%;
+		border-radius: 10px;
+		box-sizing: border-box;
+		padding: 5px;
+	}
+
+		.T1{
+			width: 85%;
+			position: relative;
+			/*text-align: center;*/
+			left: 10%;
+			background-color: green;
+		}
+
+		.display{
+			width: 85%;
+			height: 50%;
+			position: relative;
+			left: 10%;
+			background-color: violet;
+		}
+
+			#pantalla{
+				position: relative;
+				width: 100%;
+				height: 80%;
+				top: 10%;
+				border: none;
+			}
+
+		.C2{
+			width: 85%;
+			height: 30%;
+			position: relative;
+			left: 10%;
+			background-color: blue;
+		}
+
+			button{
+				width: 40%;
+				height: 100%;
+				position: relative;
+				margin-right: 5%;
+				border-radius: 15px;
+				border: 2px solid red;
+				background-color: orange;
+				color: white;
+				font-weight: bold;
+				outline: none;
+			}	
+
+.Ctres{
+	background-color: white;
+	box-sizing: border-box;
+}
+
+#fondo1{
+	width: 100%;
+	height: 100%;
+	background:rgba(95, 95, 95, 0.8);
+	position: absolute;
+	top: 0;
+	visibility: hidden;
+	z-index: 0;
+	transition: 0.6;
+}
+
+	#C3{
+		position: fixed;
+		left: 10%;
+		top: 40%;
+		width: 80%;
+		height: 150px;
+		background: #DB5242;
+		border-radius: 15px;
+		border-bottom: 3px solid #91372E;
+		z-index: 1;
+		visibility: hidden;
+		font-family: 'Lato', sans-serif;
+		padding-top: 5px;
+	}
