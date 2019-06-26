@@ -7,8 +7,7 @@ body{
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	font-family: 'Poppins', sans-serif;
-	background-color: red;
+	font-family: 'Roboto', sans-serif;
 }
 
 .grid{
@@ -21,26 +20,34 @@ body{
 }
 
 .Cuno{
-	align-self: center;
-	justify-self: center;
 	box-sizing: border-box;
 }
 
 	.header{
+		background-image: linear-gradient(to bottom right, #D487FF, #9F59FF);
+		box-shadow: 0px 1px 4px 2px #888888;
+		width: 100%;
+		height: 100%;
 		color: white;
 		font-weight: bold;
 		font-size: larger;
+		position: relative;
+		text-align: center;
+		padding: 4% 0%;
+		box-sizing: border-box;
+		z-index: 1;
 	}
 
 .Cdos{
-	background-color: grey;
+	background-color: #FEFDFF;
 	box-sizing: border-box;
+	z-index: 0;
 }
 
 	.C1{
 		width: 80%;
 		height: 80%;
-		background-color: yellow;
+		background-image: linear-gradient(to bottom right, #D487FF, #9F59FF);
 		position: relative;
 		float: left;
 		left: 10%;
@@ -48,23 +55,24 @@ body{
 		border-radius: 10px;
 		box-sizing: border-box;
 		padding: 5px 5px 5px 10%;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		z-index: 1;
 	}
 
 		.T1{
 			width: 85%;
 			position: relative;
-			background-color: green;
+			color: white;
 		}
 
 		.display{
 			width: 85%;
 			height: 50%;
 			position: relative;
-			background-color: violet;
 		}
 
 			.simbolo{
-				background-color: red;
+				color: white;
 				width: 1em;
 				height: 80%;
 				position: relative;
@@ -82,6 +90,10 @@ body{
 				top: 10%;
 				border: none;
 				float: left;
+				font-size: x-large;
+				font-weight: bold;
+				background-color: transparent;
+				color: white;
 			}
 
 		.C2{
@@ -89,7 +101,6 @@ body{
 			height: 30%;
 			position: relative;
 			float: left;
-			background-color: blue;
 		}
 
 			button{
@@ -98,8 +109,8 @@ body{
 				position: relative;
 				margin-right: 5%;
 				border-radius: 15px;
-				border: 2px solid red;
-				background-color: orange;
+				border: solid 1px #FEE9E4;
+				background-image: linear-gradient(to bottom right, #FFA56F, #FE5CA0);
 				color: white;
 				font-weight: bold;
 				outline: none;
@@ -108,7 +119,51 @@ body{
 .Ctres{
 	background-color: white;
 	box-sizing: border-box;
+	box-shadow: 0px -.5px 8px 1px #888888;
+	z-index: 0;
+	padding: 5% 10% 0%;
 }
+
+	.fichas{
+		width: 100%;
+		height: 100px;
+		border: solid 2px #CB7FFF;
+		position: relative;
+		margin-bottom: 5px;
+		border-radius: 10px;
+		padding: 0% 5px 5px 10%;
+		box-sizing: border-box;
+		font-family: 'Roboto', sans-serif;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		z-index: 2;
+	}
+
+		.ban0{
+			width: 95%;
+			height: 25%;
+			position: relative;
+			float: left;
+			text-align: right;
+			margin-top: 5%;
+			margin-bottom: 5%;
+			font-size: large;
+			font-weight: bold;
+		}
+
+		.ban1{
+			width: 75%;
+			height: 50%;
+			position: relative;
+			float: left;
+			font-weight: bold;
+		}
+
+		.ban2{
+			width: 25%;
+			height: 50%;
+			position: relative;
+			float: left;
+		}
 
 #fondo1{
 	width: 100%;
@@ -117,8 +172,7 @@ body{
 	position: absolute;
 	top: 0;
 	visibility: hidden;
-	z-index: 0;
-	transition: 0.6;
+	z-index: 1;
 }
 
 	#C3{
@@ -127,15 +181,16 @@ body{
 		top: 40%;
 		width: 80%;
 		height: 150px;
-		background: #DB5242;
+		background-image: linear-gradient(to bottom right, #D487FF, #9F59FF);
 		border-radius: 15px;
 		border-bottom: 3px solid #91372E;
 		z-index: 1;
 		visibility: hidden;
-		font-family: 'Lato', sans-serif;
+		font-family: 'Roboto', sans-serif;
 		padding-top: 5px;
 		padding-left: 10%;
 		box-sizing: border-box;
+		z-index: 2;
 	}
 
 	#intro{
@@ -145,4 +200,8 @@ body{
 		border: none;
 		float: left;
 		margin: 5px 0% 5px 0%;
+		border-radius: 5px;
+		padding-left: 5px;
+		font-family: 'Roboto', sans-serif;
+		font-size: larger;
 	}

@@ -5,12 +5,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="estilo.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <script src="funciones.js"></script>
 </head>
 <body>
 	<div class="grid">
   		<div class="Cuno">
-  			<div class="header">Agenda de Viajes</div>
+        <div class="header">Agenda de Viajes</div>
   		</div>
   		<div class="Cdos">
   			<div class="C1">
@@ -20,17 +21,21 @@
   					<input id="pantalla" type="number" disabled="">
   				</div>
   				<div class="C2">
-  					<button onclick="cambiarColor()">RECARGA</button>
-  					<button>VIAJE</button>
+  					<button onclick="recarga()">RECARGA</button>
+  					<button onclick="viaje()">VIAJE</button>
   				</div>
   			</div>
   		</div>
-  		<div class="Ctres">C</div>
+  		<div class="Ctres">
+        <div id="fichas">
+    
+        </div>  
+      </div>
         <div id="C3">
           <h4 class="T1">Ingrese la cantidad de saldo: </h4>
           <input type="number" id="intro">
           <div class="C2">
-            <button>ACEPTAR</button>
+            <button onclick="guardar()">ACEPTAR</button>
             <button onclick="cancelar()">CANCELAR</button>
           </div>
         </div>
